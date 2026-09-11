@@ -72,6 +72,10 @@ class LocationService {
   Future<bool> openLocationSettings() => Geolocator.openLocationSettings();
 
   /// A fix right now, falling back to the last cached one if the GPS is slow.
+  ///
+  /// Both calls are bounded: a provider that never answers must not strand the
+  /// caller. Returning null is a valid answer — the map opens without a dot
+  /// and fills in when the position stream delivers.
   Future<Position?> currentPosition() async {
     try {
       return await Geolocator.getCurrentPosition(
@@ -80,7 +84,12 @@ class LocationService {
         ),
       ).timeout(const Duration(seconds: 12));
     } catch (_) {
-      return Geolocator.getLastKnownPosition();
+      try {
+        return await Geolocator.getLastKnownPosition()
+            .timeout(AppConstants.lastKnownPositionTimeout);
+      } catch (_) {
+        return null;
+      }
     }
   }
 

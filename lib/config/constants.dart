@@ -67,6 +67,15 @@ class AppConstants {
   static const int serviceNotificationId = 4202;
 
   static const Duration splashMinimumDuration = Duration(milliseconds: 1500);
+
+  /// Hard deadline on every step of the splash bootstrap. A cold GPS in a
+  /// garage or a tunnel can leave a location call pending forever; the map is
+  /// still worth reaching, and the providers fill in once the call returns.
+  static const Duration bootstrapStepTimeout = Duration(seconds: 15);
+
+  /// The last-known-position fallback is a cache read, so it either answers
+  /// at once or the provider is wedged and never will.
+  static const Duration lastKnownPositionTimeout = Duration(seconds: 3);
 }
 
 /// Brand and semantic colours. Radar type colours are deliberately identical in

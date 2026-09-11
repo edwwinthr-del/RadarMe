@@ -8,6 +8,7 @@ import '../config/routes.dart';
 import '../providers/location_provider.dart';
 import '../providers/radar_provider.dart';
 import '../providers/settings_provider.dart';
+import '../services/alarm_service.dart';
 
 /// Loads the radar dataset and asks for location permission, then hands over to
 /// the main shell. Stays up for at least [AppConstants.splashMinimumDuration].
@@ -42,23 +43,26 @@ class _SplashScreenState extends State<SplashScreen>
     final RadarProvider radars = context.read<RadarProvider>();
     final LocationProvider location = context.read<LocationProvider>();
     final SettingsProvider settings = context.read<SettingsProvider>();
+    final AlarmService alarm = context.read<AlarmService>();
 
     // Nothing in here may strand the driver on the splash screen: a plugin that
-    // throws, a permission dialog that errors, a service that refuses to start.
-    // The bundled dataset is always there, so the map is still worth reaching.
-    try {
+    // throws, a permission dialog that errors, a service that refuses to start,
+    // or a call that simply never returns. Every step is separately guarded, so
+    // one bad step neither skips the rest nor holds up the map — the bundled
+    // dataset is always there, and providers catch up once their call lands.
+    await _step('podaci i lokacija', () async {
       await Future.wait<Object?>(<Future<Object?>>[
         radars.load(),
         location.initialize(),
       ]);
-      await settings.syncBackgroundService();
-    } catch (error) {
-      developer.log(
-        'Pokretanje nije završeno u cijelosti.',
-        name: 'SplashScreen',
-        error: error,
-      );
-    }
+    });
+
+    // Android 13+ drops every notification without this grant, and the settings
+    // toggle would read "on" while the driver silently gets nothing. Asked
+    // after the location prompt so the two dialogs do not collide.
+    await _step('dozvola za obavještenja', alarm.requestNotificationPermission);
+
+    await _step('pozadinsko praćenje', settings.syncBackgroundService);
 
     final Duration remaining =
         AppConstants.splashMinimumDuration - stopwatch.elapsed;
@@ -66,6 +70,19 @@ class _SplashScreenState extends State<SplashScreen>
 
     if (!mounted) return;
     Navigator.of(context).pushReplacementNamed(AppRoutes.home);
+  }
+
+  /// Runs one bootstrap step under a deadline, logging rather than rethrowing.
+  Future<void> _step(String label, Future<void> Function() action) async {
+    try {
+      await action().timeout(AppConstants.bootstrapStepTimeout);
+    } catch (error) {
+      developer.log(
+        'Pokretanje — korak „$label“ nije završen.',
+        name: 'SplashScreen',
+        error: error,
+      );
+    }
   }
 
   @override
