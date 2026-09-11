@@ -1,0 +1,93 @@
+# ---- Project-specific ----
+radarMe.pdf
+progress.md
+prompt.md
+
+# Local tooling (bundled JDK, screenshots)
+.tooling/
+
+# ---- Flutter / Dart ----
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+doc/api/
+*.dart.js
+*.info.json
+*.js_
+*.js.deps
+*.js.map
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# ---- IDE / editors ----
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history/
+*.swp
+
+# ---- Android ----
+android/.gradle/
+android/local.properties
+android/captures/
+android/.cxx/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+*.jks
+*.keystore
+**/android/**/gradle-wrapper.jar
+**/android/**/GeneratedPluginRegistrant.java
+
+# ---- iOS ----
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+**/Flutter/.last_build_id
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/*sync/
+.sconsign.dblite
+**/DerivedData/
+Icon?
+**/xcuserdata/
+
+# ---- Secrets / local config ----
+.env
+.env.*
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

@@ -1,0 +1,2098 @@
+[
+  {
+    "id": "001",
+    "name": "Raskrsnica bulevara Mihaila Lalića, S.P. Cetinjskog i Džordža Vašingtona",
+    "city": "PODGORICA",
+    "type": "INTERSECTION_ENFORCEMENT",
+    "status": "COMPLETED",
+    "lat": 42.44375,
+    "lng": 19.24581111,
+    "capabilities": [
+      "red_light",
+      "instant_speed",
+      "wrong_way",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_turn",
+      "illegal_parking",
+      "verification_video",
+      "illegal_overtaking",
+      "traffic_counting"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "002",
+    "name": "Raskrsnica bulevara S.P. Cetinjskog, Jovana Tomaševića i ulice Ivana Milutinovića",
+    "city": "PODGORICA",
+    "type": "INTERSECTION_ENFORCEMENT",
+    "status": "COMPLETED",
+    "lat": 42.44116389,
+    "lng": 19.25468889,
+    "capabilities": [
+      "red_light",
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "wrong_way",
+      "illegal_turn",
+      "illegal_overtaking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "003",
+    "name": "Raskrsnica bulevara Jovana Tomaševića, 13. jula i mosta „Milenijum“",
+    "city": "PODGORICA",
+    "type": "INTERSECTION_ENFORCEMENT",
+    "status": "COMPLETED",
+    "lat": 42.44546944,
+    "lng": 19.25719722,
+    "capabilities": [
+      "red_light",
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "wrong_way",
+      "illegal_turn",
+      "illegal_overtaking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      },
+      {
+        "model": "Vista EnVES10-4M-CTX",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "004",
+    "name": "Kod podvožnjaka, bulevar Ivana Crnojevića",
+    "city": "PODGORICA",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "COMPLETED",
+    "lat": 42.44166667,
+    "lng": 19.27483333,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "red_light",
+      "wrong_way",
+      "illegal_turn",
+      "illegal_overtaking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": null
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "005",
+    "name": "Raskrsnica sa ul. Dajbabskom, Zabjelo",
+    "city": "PODGORICA",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "COMPLETED",
+    "lat": 42.40829722,
+    "lng": 19.24756111,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "wrong_way",
+      "illegal_turn",
+      "illegal_overtaking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 4
+      },
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "006",
+    "name": "Crkva Svetog Đorđa, Donja Cijevna",
+    "city": "PODGORICA",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "COMPLETED",
+    "lat": 42.37336111,
+    "lng": 19.22502778,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "red_light",
+      "wrong_way",
+      "illegal_turn",
+      "illegal_overtaking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022",
+        "lanes": 4
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "007",
+    "name": "Magistralni put M-2, dionica Virpazar - Podgorica, Vranjina",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "COMPLETED",
+    "lat": 42.31127778,
+    "lng": 19.20563889,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking",
+      "wrong_way",
+      "lane_violation",
+      "illegal_turn",
+      "illegal_parking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": "008"
+  },
+  {
+    "id": "008",
+    "name": "Magistralni put M-2, dionica Virpazar - Podgorica, Vranjina",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "COMPLETED",
+    "lat": 42.30597222,
+    "lng": 19.186,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "wrong_way",
+      "lane_violation",
+      "illegal_turn",
+      "illegal_parking",
+      "illegal_overtaking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": "007"
+  },
+  {
+    "id": "009",
+    "name": "Bulevar Josipa Broza Tita, u blizine raskrsnice sa ulicom Admirala Zmajevića, Stari Aerodrom",
+    "city": "PODGORICA",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "COMPLETED",
+    "lat": 42.42983333,
+    "lng": 19.27166667,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "010",
+    "name": "Kod Katoličke Crkve, Stari Aerodrom",
+    "city": "PODGORICA",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.43806944,
+    "lng": 19.27615278,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "011",
+    "name": "Bulevar Vilija Branta, ul. Branka Ćopića",
+    "city": "PODGORICA",
+    "type": "INTERSECTION_ENFORCEMENT",
+    "status": "PENDING",
+    "lat": 42.46133333,
+    "lng": 19.29294444,
+    "capabilities": [
+      "red_light",
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "012",
+    "name": "kod kompleksa \"Vilage\", magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.41535556,
+    "lng": 19.19660833,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "013"
+  },
+  {
+    "id": "013",
+    "name": "Raskrsnica sa prukljucnim putem, magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.41260833,
+    "lng": 19.18429444,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "012"
+  },
+  {
+    "id": "014",
+    "name": "Vuk Petrol pumpa, magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.39580556,
+    "lng": 19.15983333,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "015"
+  },
+  {
+    "id": "015",
+    "name": "Barutana, magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.39341667,
+    "lng": 19.13613889,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "014"
+  },
+  {
+    "id": "016",
+    "name": "Gospoština, magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "COMPLETED",
+    "lat": 42.38311111,
+    "lng": 19.10158333,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_overtaking"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": 3
+      }
+    ],
+    "pairedWith": "017"
+  },
+  {
+    "id": "017",
+    "name": "Gospoština, magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "PODGORICA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.38605556,
+    "lng": 19.08097222,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "016"
+  },
+  {
+    "id": "018",
+    "name": "Karabuško Polje, magistralni put M-4, dionica Podgorica - Tuzi",
+    "city": "TUZI",
+    "type": "INTERSECTION_ENFORCEMENT",
+    "status": "PENDING",
+    "lat": 42.38486944,
+    "lng": 19.31217222,
+    "capabilities": [
+      "red_light",
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "019",
+    "name": "Manastir Morača, magistralni put M-2, dionica Podgorica - Kolašin",
+    "city": "KOLAŠIN",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.75492222,
+    "lng": 19.39178333,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "020"
+  },
+  {
+    "id": "020",
+    "name": "Manastir Morača, magistralni put M-2, dionica Podgorica - Kolašin",
+    "city": "KOLAŠIN",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.74809861,
+    "lng": 19.38992556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "019"
+  },
+  {
+    "id": "021",
+    "name": "Trebaljevo, magistralni put M-2, dionica Kolašin - Mojkovac",
+    "city": "KOLAŠIN",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.88484444,
+    "lng": 19.53871667,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "022"
+  },
+  {
+    "id": "022",
+    "name": "Sjerogošte, magistralni put M-2, dionica Kolašin - Mojkovac",
+    "city": "KOLAŠIN",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.89619444,
+    "lng": 19.53947222,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "021"
+  },
+  {
+    "id": "023",
+    "name": "Frutak, magistralni put M-3, dionica Nikšić - Danilovgrad",
+    "city": "DANILOVGRAD",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.58705556,
+    "lng": 19.04486111,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "024"
+  },
+  {
+    "id": "024",
+    "name": "Kujava, magistralni put M-3, dionica Nikšić - Danilovgrad",
+    "city": "DANILOVGRAD",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.60140278,
+    "lng": 19.035925,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "023"
+  },
+  {
+    "id": "025",
+    "name": "Kosić, regionalni put R-23, dionica Danilovgrad - Spuž",
+    "city": "DANILOVGRAD",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.52320556,
+    "lng": 19.15523611,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "026"
+  },
+  {
+    "id": "026",
+    "name": "Kosić, regionalni put R-23, dionica Danilovgrad - Spuž",
+    "city": "DANILOVGRAD",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.51422222,
+    "lng": 19.17017778,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "025"
+  },
+  {
+    "id": "027",
+    "name": "Jankovića krš - magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "CETINJE",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.37605278,
+    "lng": 19.03076667,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "028"
+  },
+  {
+    "id": "028",
+    "name": "Skretanje za groblje Meterizi - magistralni put M-10, dionica Podgorica - Cetinje",
+    "city": "CETINJE",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.37728889,
+    "lng": 19.05775833,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "027"
+  },
+  {
+    "id": "029",
+    "name": "Kod „Kika auto“ - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "CETINJE",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "COMPLETED",
+    "lat": 42.37127778,
+    "lng": 18.93452778,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking",
+      "wrong_way",
+      "lane_violation",
+      "illegal_turn",
+      "illegal_parking",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022",
+        "lanes": 2
+      }
+    ],
+    "pairedWith": "030"
+  },
+  {
+    "id": "030",
+    "name": "Zagrablje - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "CETINJE",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.36111111,
+    "lng": 18.93361111,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "029"
+  },
+  {
+    "id": "031",
+    "name": "Obzovica - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "CETINJE",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.31738889,
+    "lng": 18.93316667,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "032"
+  },
+  {
+    "id": "032",
+    "name": "Đurdevo Ždrijelo - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "CETINJE",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.30833333,
+    "lng": 18.93972222,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "031"
+  },
+  {
+    "id": "033",
+    "name": "Sutorina - magistralni put M-1, dionica GP Debeli Brijeg – Herceg Novi (u blizini Štamparija Biro konto)",
+    "city": "HERCEG NOVI",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.46647222,
+    "lng": 18.48347222,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "034",
+    "name": "Meljine - magistralni put M-1, dionica Zelenika - Herceg Novi (AUTO KLIME)",
+    "city": "HERCEG NOVI",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.45541667,
+    "lng": 18.56363056,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "035",
+    "name": "Bijela - magistralni put M-1, dionica Herceg Novi - Kamenari (u blizini SM Petrola)",
+    "city": "HERCEG NOVI",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.45416667,
+    "lng": 18.65388889,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "036",
+    "name": "van naselja - magistralni put M-1, dionica Lipci - Kotor",
+    "city": "KOTOR",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.49827222,
+    "lng": 18.69217028,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "037"
+  },
+  {
+    "id": "037",
+    "name": "Van naselja - magistralni put M-1, dionica Lipci - Kotor",
+    "city": "KOTOR",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.50796667,
+    "lng": 18.69584444,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "036"
+  },
+  {
+    "id": "038",
+    "name": "Van naselja (od kružnog toka prema tunelu) - magistralni put M-1, dionica Kotor - Krtolska raskrsnica",
+    "city": "KOTOR",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.39777778,
+    "lng": 18.74722222,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "039",
+    "name": "Van naselja - magistralni put M-8, dionica Lipci – Grahovo",
+    "city": "KOTOR",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.72849167,
+    "lng": 18.60576389,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "040"
+  },
+  {
+    "id": "040",
+    "name": "Van naselja - magistralni put M-8, dionica Lipci – Grahovo",
+    "city": "KOTOR",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.71219444,
+    "lng": 18.60725,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "039"
+  },
+  {
+    "id": "041",
+    "name": "Van naselja - magistralni put M-1, dionica Krtolska raskrsnica - Budva",
+    "city": "BUDVA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.28579444,
+    "lng": 18.811025,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "042"
+  },
+  {
+    "id": "042",
+    "name": "van naselja - magistralni put M-1, dionica Krtolska raskrsnica - Budva",
+    "city": "BUDVA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.29139167,
+    "lng": 18.80739444,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "041"
+  },
+  {
+    "id": "043",
+    "name": "van naselja - magistralni put M-1, Budva - Petrovac",
+    "city": "BUDVA",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.25608056,
+    "lng": 18.89776111,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "044",
+    "name": "van naselja - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "BUDVA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.30837222,
+    "lng": 18.86673611,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "045"
+  },
+  {
+    "id": "045",
+    "name": "van naselja - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "BUDVA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.30251389,
+    "lng": 18.87481389,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "044"
+  },
+  {
+    "id": "046",
+    "name": "van naselja - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "BUDVA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.30858889,
+    "lng": 18.87410833,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "047"
+  },
+  {
+    "id": "047",
+    "name": "van naselja - magistralni put M-10, dionica Cetinje - Budva",
+    "city": "BUDVA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.30202778,
+    "lng": 18.89220833,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "046"
+  },
+  {
+    "id": "048",
+    "name": "u blizini supermarketa Voli - magistralni put M-1, dionica Sutomore - Bar",
+    "city": "BAR",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "COMPLETED",
+    "lat": 42.1425,
+    "lng": 19.04577778,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "illegal_overtaking",
+      "average_speed",
+      "wrong_way",
+      "illegal_turn",
+      "traffic_counting",
+      "verification_video"
+    ],
+    "cameras": [
+      {
+        "model": "ENGINE CELERITAS MVD 2022I",
+        "lanes": null
+      }
+    ],
+    "pairedWith": null
+  },
+  {
+    "id": "049",
+    "name": "Šušanj - magistralni put M-1, dionica Sutomore - Bar",
+    "city": "BAR",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.11738889,
+    "lng": 19.07559167,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "050",
+    "name": "grad Bar - magistralni put M-1, dionica Bar - Ulcinj ( bulevar na izlazu iz Bara ka Ulcinju)",
+    "city": "BAR",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.09280278,
+    "lng": 19.10496944,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "051",
+    "name": "Zaljevo - magistralni put M-1, dionica Bar - Ulcinj (kod prodavnice E-plus )",
+    "city": "BAR",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.07194444,
+    "lng": 19.12622222,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "052",
+    "name": "van naselja - magistralni put M-2, dionica Virpazar 2 - Podgorica (kod raskrsnice sa regionalnim putem R-28)",
+    "city": "BAR",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.24631389,
+    "lng": 19.08907778,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "053"
+  },
+  {
+    "id": "053",
+    "name": "van naselja - magistralni put M-2, dionica Virpazar 2 - Podgorica (kod raskrsnice sa regionalnim putem R-28)",
+    "city": "BAR",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.26044444,
+    "lng": 19.09444444,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "052"
+  },
+  {
+    "id": "054",
+    "name": "Bratic - magistralni put M-1, dionica Bar - Ulcinj",
+    "city": "ULCINJ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 41.95211111,
+    "lng": 19.19282222,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "055",
+    "name": "grad Ulcinj - regionalni put R-22 Ulcinj - Ada (bulevar Teuta)",
+    "city": "ULCINJ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 41.92049167,
+    "lng": 19.23734444,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "lane_violation",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "056",
+    "name": "Štoj - regionalni put R-22 Ulcinj - Ada",
+    "city": "ULCINJ",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 41.90830556,
+    "lng": 19.27888889,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "057"
+  },
+  {
+    "id": "057",
+    "name": "Štoj - regionalni put R-22 Ulcinj - Ada",
+    "city": "ULCINJ",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 41.90372222,
+    "lng": 19.29930556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "056"
+  },
+  {
+    "id": "058",
+    "name": "Raskrsnica Donje Seljanovo - magistralni put M-11, dionica Lepetane - Tivat",
+    "city": "TIVAT",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.44128056,
+    "lng": 18.69125278,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "059",
+    "name": "Straševina - magistralni put M-3, dionica Nikšić - Danilovgrad",
+    "city": "NIKŠIĆ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.75575556,
+    "lng": 18.94048611,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "060",
+    "name": "Cerovo - magistralni put M-3, dionica Nikšić - Danilovgrad",
+    "city": "NIKŠIĆ",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.67052778,
+    "lng": 18.97386111,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "061"
+  },
+  {
+    "id": "061",
+    "name": "Drenovštica - magistralni put M-3, dionica Nikšić - Danilovgrad",
+    "city": "NIKŠIĆ",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.66190556,
+    "lng": 18.981275,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "060"
+  },
+  {
+    "id": "062",
+    "name": "Hercegovački put - magistralni put M-7, dionica Nikšić - Vilusi (u blizini aerodroma)",
+    "city": "NIKŠIĆ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.77996389,
+    "lng": 18.90763333,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "063",
+    "name": "Vilusi - magistralni put M-6, dionica Nikšić - Vilusi (van naselja)",
+    "city": "NIKŠIĆ",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.75405556,
+    "lng": 18.81605556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "064"
+  },
+  {
+    "id": "064",
+    "name": "Vilusi - magistralni put M-8, dionica Nikšić - Vilusi (van naselja)",
+    "city": "NIKŠIĆ",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.75156667,
+    "lng": 18.78960556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "063"
+  },
+  {
+    "id": "065",
+    "name": "Carine - magistralni put M-8, dionica Nikšić - Grahovo (van naselja)",
+    "city": "NIKŠIĆ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.72627778,
+    "lng": 18.60613889,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "066",
+    "name": "grad Nikšić - ulica u naselju: bulevar 13. jula (preko puta marketa Voli i Eko petrol benzinske pumpe)",
+    "city": "NIKŠIĆ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.76883333,
+    "lng": 18.94938889,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "067",
+    "name": "Mokra njiva - lokalni put Duklo - Brezovik",
+    "city": "NIKŠIĆ",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.80113889,
+    "lng": 18.93505278,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_parking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "068",
+    "name": "Radosavac - magistralni put M-6, Pljevlja – Đurđevića Tara (van naselja)",
+    "city": "PLJEVLJA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 43.34827778,
+    "lng": 19.33969444,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "069"
+  },
+  {
+    "id": "069",
+    "name": "Radosavac - magistralni put M-6, Pljevlja – Đurđevića Tara (van naselja)",
+    "city": "PLJEVLJA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 43.34347222,
+    "lng": 19.32593889,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "068"
+  },
+  {
+    "id": "070",
+    "name": "prije Mijakovića - magistralni put M-6, Pljevlja – Đurđevića Tara (van naselja)",
+    "city": "PLJEVLJA",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 43.25422222,
+    "lng": 19.37305556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "071"
+  },
+  {
+    "id": "071",
+    "name": "prije Mijakovića - magistralni put M-6, Pljevlja – Đurđevića Tara (van naselja)",
+    "city": "PLJEVLJA",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 43.24719444,
+    "lng": 19.37866667,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "070"
+  },
+  {
+    "id": "072",
+    "name": "Kulaš - magistralni put M-6, dionica Žabljak - Šavnik",
+    "city": "ŽABLJAK",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 43.11402778,
+    "lng": 19.12213889,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "073",
+    "name": "Donja Grabovica - magistralni put M-6, dionica Žabljak - Šavnik",
+    "city": "ŠAVNIK",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.90180556,
+    "lng": 19.05855556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "074"
+  },
+  {
+    "id": "074",
+    "name": "Donja Grabovica - magistralni put M-6, dionica Žabljak - Šavnik",
+    "city": "ŠAVNIK",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.895,
+    "lng": 19.06888889,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "073"
+  },
+  {
+    "id": "075",
+    "name": "raskrsnica sa ul. Mališe Damjanovića - magistralni put M-2, dionica Kolašin - Mojkovac (van naselja)",
+    "city": "MOJKOVAC",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.95966944,
+    "lng": 19.57814722,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "076",
+    "name": "Lepenac - magistralni put M-2, dionica Mojkovac - Slijepač Most",
+    "city": "MOJKOVAC",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.99186111,
+    "lng": 19.60178056,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "077"
+  },
+  {
+    "id": "077",
+    "name": "Lepenac - magistralni put M-2, dionica Mojkovac - Slijepač Most",
+    "city": "MOJKOVAC",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.98616667,
+    "lng": 19.62227778,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "076"
+  },
+  {
+    "id": "078",
+    "name": "Pripčići - magistralni put M-2, dionica Ribarevina-Bijelo Polje (obilaznica oko Bijelog Polja)",
+    "city": "BIJELO POLJE",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 43.01211111,
+    "lng": 19.73394444,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "079",
+    "name": "Nedakusi - magistralni put M-2, dionica Bijelo Polje - Barski Most (u bilzini Ina benzinske pumpe)",
+    "city": "BIJELO POLJE",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 43.05436111,
+    "lng": 19.77027778,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "080",
+    "name": "Sutivan - magistralni put M-2, dionica Bijelo Polje - Barski Most (u blizini restorana Manjež)",
+    "city": "BIJELO POLJE",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 43.08263889,
+    "lng": 19.77518056,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": "081"
+  },
+  {
+    "id": "081",
+    "name": "Sutivan - magistralni put M-2, dionica Bijelo Polje - Barski Most (u blizini restorana Manjež)",
+    "city": "BIJELO POLJE",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 43.095,
+    "lng": 19.77163889,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "080"
+  },
+  {
+    "id": "082",
+    "name": "Zaton - magistralni put M-5, dionica Ribarevina - Berane",
+    "city": "BIJELO POLJE",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.99347222,
+    "lng": 19.80191667,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "083"
+  },
+  {
+    "id": "083",
+    "name": "Zaton - magistralni put M-5, dionica Ribarevina - Berane",
+    "city": "BIJELO POLJE",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.97838889,
+    "lng": 19.80930556,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "082"
+  },
+  {
+    "id": "084",
+    "name": "Buče - regionalni put R-2, dionica Berane - Andrijevica",
+    "city": "BERANE",
+    "type": "AVERAGE_SPEED_CONTROL_A",
+    "status": "PENDING",
+    "lat": 42.82422222,
+    "lng": 19.86358333,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "085"
+  },
+  {
+    "id": "085",
+    "name": "Buče - regionalni put R-2, dionica Berane - Andrijevica",
+    "city": "BERANE",
+    "type": "AVERAGE_SPEED_CONTROL_B",
+    "status": "PENDING",
+    "lat": 42.81672222,
+    "lng": 19.85297222,
+    "capabilities": [
+      "instant_speed",
+      "average_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": "084"
+  },
+  {
+    "id": "086",
+    "name": "Liješće - regionalni put R-2, dionica Murino - Plav (van naselja)",
+    "city": "PLAV",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.64222222,
+    "lng": 19.93063889,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "087",
+    "name": "Baza - magistralni put M-5, dionica Berane - Rožaje (Zeleni)",
+    "city": "ROŽAJE",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.8405,
+    "lng": 20.12722222,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification",
+      "illegal_overtaking"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  },
+  {
+    "id": "088",
+    "name": "Dosuđe - magistralni put M-5, dionica Berane - Rožaje",
+    "city": "GUSINJE",
+    "type": "ROAD_ENFORCEMENT_POINT",
+    "status": "PENDING",
+    "lat": 42.57047222,
+    "lng": 19.85377778,
+    "capabilities": [
+      "instant_speed",
+      "anpr",
+      "seatbelt",
+      "mobile_phone",
+      "helmet",
+      "vehicle_detection",
+      "vehicle_classification"
+    ],
+    "cameras": [],
+    "pairedWith": null
+  }
+]
